@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RPS_game\RPS_Game_Backend.csproj" />
+    <ProjectReference Include="..\RPS_Game_Constants\RPS_Game_Constants.csproj" />
+  </ItemGroup>
+
+</Project>
